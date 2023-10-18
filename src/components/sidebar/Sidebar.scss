@@ -1,0 +1,37 @@
+.Sidebar {
+  .sidebar {
+    background: #5b5ce2;
+    box-shadow: 10px 0px 50px 0px rgba(0, 0, 0, 0.05);
+    background: #5b5ce2;
+    box-shadow: 10px 0px 50px 0px rgba(0, 0, 0, 0.05);
+    width: 97px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    .sidebar-icons {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 30px;
+      img {
+        width: 20px;
+        height: 20px;
+        // margin-bottom: 55px;
+      }
+      .logo {
+        width: 49px;
+        height: 32px;
+        flex-shrink: 0;
+        margin-bottom: 53px;
+        margin-top: 30px;
+      }
+      .login{
+        // margin-top: 155px;
+        // margin-left: 10px;
+        background-color: transparent;
+      }
+    }
+  }
+}

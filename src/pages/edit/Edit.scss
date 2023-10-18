@@ -1,0 +1,103 @@
+body {
+    background: #eeeef5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Edit {
+    .big {
+      padding-top: 6px;
+      margin-top: 120px;
+      margin-left: 200px;
+      border-radius: 12px;
+      background: #fff;
+      width: 1179px;
+      height: 720px;
+      margin-bottom: 10px;
+      .add-content {
+        .head {
+          border-radius: 5px;
+          background: #f0f0f6;
+          display: flex;
+          padding: 8px 16px;
+          border: 1px solid #ccc;
+          margin-left: 25px;
+          margin-top: 30px;
+        }
+        form {
+          .inpt {
+            display: flex;
+            flex-direction: column;
+            row-gap: 12px;
+            width: 764px;
+            height: 44px;
+            margin-left: 73px;
+            margin-top: 31px;
+            .comment {
+              width: 764px;
+              padding: 50px;
+              background: #f6f6fb;
+              border: none;
+            }
+          }
+          .inpt1 {
+            width: 362px;
+            background: #f6f6fb;
+            border: none;
+          }
+          .inpt2 {
+            display: flex;
+            margin-left: 73px;
+            margin-top: 40px;
+            column-gap: 40px;
+            .in1 {
+              display: flex;
+              flex-direction: column;
+              row-gap: 12px;
+            }
+          }
+          .last {
+            display: flex;
+            align-items: center;
+            column-gap: 40px;
+            margin-top: 170px;
+            margin-left: 88px;
+            .inpt1 {
+              width: 228px;
+              border-radius: 6px;
+              background: #f6f6fb;
+              border: none;
+            }
+          }
+            .btns {
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+        margin-left: 480px;
+        padding-top: 70px;
+  
+        button {
+          color: #80809b;
+          font-size: 14px;
+          font-weight: 800;
+          line-height: 72%;
+          padding: 15px 25px;
+          gap: 10px;
+          border-radius: 6px;
+          background: #f7f7ff;
+          border: none;
+          &:hover {
+            background: #1bc58d;
+            transition: 0.2s;
+            color: #fff;
+          }
+        }
+      }
+        }
+      }
+    }
+  
+    
+    
+  }
+  
